@@ -3,7 +3,7 @@
 package monkey
 
 import (
-	"syscall"
+	syscall "golang.org/x/sys/unix"
 )
 
 // this function is super unsafe
